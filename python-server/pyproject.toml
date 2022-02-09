@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "stripe-test"
+version = "0.1.0"
+description = ""
+authors = ["Jônatas Luiz de Oliveira <contact@jonatasoliveira.dev>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.17.1"
+fastapi = "^0.73.0"
+stripe = "^2.65.0"
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">fast-crud</string>
+    <string name="title_activity_main">fast-crud</string>
+    <string name="package_name">com.simbioseventures</string>
+    <string name="custom_url_scheme">com.simbioseventures</string>
+
+    <string name="publishable_key">pk_test_51KHSFLHEcv3SrjgHdX1NqSg2VGxGHw1IIfldrFLtRy1BlbkGPO3qQpaNEAwBdQaA51PY7fkoaryNgBbjIyM02mvO005TQXWk6Y</string>
+    <bool name="enable_google_pay">true</bool>
+    <string name="country_code">BR</string>
+    <string name="merchant_display_name">Widget Store</string>
+    <bool name="google_pay_is_testing">true</bool>
+</resources>
+

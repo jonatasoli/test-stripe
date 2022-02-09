@@ -1,0 +1,262 @@
+{
+  "projects": [
+    {
+      "id": "dev",
+        "namespace": "127.0.0.1:8000",
+        "name": "tato",
+        "intro_text": "fisioterapia online",
+        "theme_id": "tato",
+        "routes": [
+          {
+            "id": "tatodois-listagem-empresas",
+            "url": "/tatodois-listagem-empresas",
+            "name": "Listagem de empresas parceiras",
+            "friendly-name": "Listagem e cadastro",
+            "settings": {
+              "private": true,
+              "show-in-menu": true,
+              "category": "Equipe",
+              "category_order": 2,
+              "menu_order": 4
+            }
+          },
+          {
+            "id": "tatodois-atualizar-funcionario",
+            "url": "/tatodois-atualizar-funcionario",
+            "name": "Editar Funcionário",
+            "friendly-name": "Edição de Funcionário",
+            "settings": {
+              "private": true,
+              "show-in-menu": false,
+              "category": "Equipe",
+              "category_order": 0,
+              "menu_order": 0
+            }
+          },
+          {
+            "id": "tatodois-triagem",
+            "url": "/tatodois-triagem",
+            "name": "Triagem",
+            "friendly-name": "Triagem",
+            "settings": {
+              "private": true,
+              "show-in-menu": false,
+              "category": null,
+              "category_order": null,
+              "menu_order": null
+            }
+          },
+          {
+            "id": "tatodois-visualizar-paciente",
+            "url": "/tatodois-visualizar-paciente",
+            "name": "Visualiza Paciente",
+            "friendly-name": "Visualiza Paciente",
+            "settings": {
+              "private": true,
+              "show-in-menu": false,
+              "category": "Paciente",
+              "category_order": 0,
+              "menu_order": 0
+            }
+          },
+          {
+            "id": "tatodois-edicao-triagem",
+            "url": "/tatodois-edicao-triagem",
+            "name": "Triagem",
+            "friendly-name": "Triagem",
+            "settings": {
+              "private": true,
+              "show-in-menu": false,
+              "category": null,
+              "category_order": null,
+              "menu_order": null
+            }
+          },
+          {
+            "id": "tatodois-listagem-pre-triagem",
+            "url": "/tatodois-listagem-pre-triagem",
+            "name": "Listagem de pré-triagem",
+            "friendly-name": "Listagem de pré-triagem",
+            "settings": {
+              "private": true,
+              "show-in-menu": true,
+              "category": "Triagem",
+              "category_order": 6,
+              "menu_order": 1
+            }
+          },
+          {
+            "id": "tatodois-novo-funcionario",
+            "url": "/tatodois-novo-funcionario",
+            "name": "Inserir novo Funcionário",
+            "friendly-name": "Inserção de Funcionário",
+            "settings": {
+              "private": true,
+              "show-in-menu": true,
+              "category": "Equipe",
+              "category_order": 2,
+              "menu_order": 4
+            }
+          },
+          {
+            "id": "tatodois-calendario",
+            "url": "/tatodois-calendario",
+            "name": "Agenda",
+            "friendly-name": "Agenda",
+            "settings": {
+              "private": true,
+              "show-in-menu": false,
+              "category": "Agenda",
+              "category_order": 1,
+              "menu_order": 2
+            }
+          },
+          {
+            "id": "tatodois-visualizar-agendamento",
+            "url": "/tatodois-visualizar-agendamento",
+            "name": "Dados do Agendamento",
+            "friendly-name": "Dados do Agendamento",
+            "settings": {
+              "private": true,
+              "show-in-menu": false,
+              "category": "Agenda",
+              "category_order": 0,
+              "menu_order": 0
+            }
+          },
+          {
+            "id": "tatodois-calendario-todos-fisioterapeutas",
+            "url": "/tatodois-calendario-todos-fisioterapeutas",
+            "name": "Agenda",
+            "friendly-name": "Agenda",
+            "settings": {
+              "private": true,
+              "show-in-menu": true,
+              "category": null,
+              "category_order": 1,
+              "menu_order": 3
+            }
+          },
+          {
+            "id": "tatodois-inserir-empresa",
+            "url": "/tatodois-inserir-empresa",
+            "name": "Inserir Empresa Parceira",
+            "friendly-name": "Tela para inserir empresas parceiras",
+            "settings": {
+              "private": true,
+              "show-in-menu": true,
+              "category": "Equipe",
+              "category_order": 2,
+              "menu_order": 3
+            }
+          },
+          {
+            "id": "tatodois-lista-funcionarios",
+            "url": "/tatodois-lista-funcionarios",
+            "name": "Listagem de Funcionários",
+            "friendly-name": "Listagem de Funcionários",
+            "settings": {
+              "private": true,
+              "show-in-menu": true,
+              "category": "Equipe",
+              "category_order": 2,
+              "menu_order": 3
+            }
+          },
+          {
+            "id": "tatodois-lista-pacientes",
+            "url": "/tatodois-lista-pacientes",
+            "name": "Listagem de Pacientes",
+            "friendly-name": "Listagem de Pacientes",
+            "settings": {
+              "private": true,
+              "show-in-menu": true,
+              "category": "Pacientes",
+              "category_order": 5,
+              "menu_order": 1
+            }
+          },
+          {
+            "id": "tatodois-editar-empresa",
+            "url": "/tatodois-editar-empresa",
+            "name": "Dados da Empresa Parceira",
+            "friendly-name": "Tela de Edição de Empresa Parceira",
+            "settings": {
+              "private": true,
+              "show-in-menu": false,
+              "category": "Equipe",
+              "category_order": 2,
+              "menu_order": 3
+            }
+          },
+          {
+            "id": "tatodois-novo-fisioterapeuta",
+            "url": "/tatodois-novo-fisioterapeuta",
+            "name": "Inserir novo Fisioterapeuta",
+            "friendly-name": "Inserção de fisioterapeuta",
+            "settings": {
+              "private": true,
+              "show-in-menu": true,
+              "category": "Equipe",
+              "category_order": 2,
+              "menu_order": 2
+            }
+          },
+          {
+            "id": "tatodois-fisioterapeutas",
+            "url": "/tatodois-fisioterapeutas",
+            "name": "Listagem de Fisioterapeutas",
+            "friendly-name": "Listagem de Fisioterapeutas",
+            "settings": {
+              "private": true,
+              "show-in-menu": true,
+              "category": "Equipe",
+              "category_order": 2,
+              "menu_order": 1
+            }
+          },
+          {
+            "id": "tatodois-dados-fisioterapeuta",
+            "url": "/tatodois-dados-fisioterapeuta",
+            "name": "Dados do Fisioterapeuta",
+            "friendly-name": "Dados do Fisioterapeuta",
+            "settings": {
+              "private": true,
+              "show-in-menu": false,
+              "category": "Equipe",
+              "category_order": 0,
+              "menu_order": 0
+            }
+          }
+        ],
+        "theme": {
+          "primary": "orange",
+          "white": "",
+          "dark": "#283252",
+          "link": "#f38d07",
+          "primaryMedium": "#b4e4ce",
+          "primaryLight": "#f7fcfa",
+          "secondary": "#ff227d",
+          "accent": "#797bf2",
+          "accentMedium": "#d4b3ff",
+          "accentLight": "#b8ccff",
+          "success": "green",
+          "info": "blue",
+          "warning": "orange",
+          "danger": "red",
+          "purple": "purple",
+          "blue": "blue",
+          "green": "green",
+          "yellow": "yellow",
+          "orange": "orange",
+          "lightText": "#a2a5b9",
+          "fadeGrey": "#ededed"
+        }
+      }
+  ],
+  "routes": [
+    {
+      "id": 1
+    }
+  ]
+}

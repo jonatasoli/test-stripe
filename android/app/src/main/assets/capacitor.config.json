@@ -1,0 +1,9 @@
+{
+	"appId": "com.simbioseventures",
+	"appName": "fastcrud",
+	"webDir": "dist",
+	"bundledWebRuntime": false,
+	"server": {
+		"cleartext": true
+	}
+}
